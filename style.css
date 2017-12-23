@@ -3,6 +3,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* IE fix */
+a, img {
+  border:none;
+  outline:none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -58,6 +64,7 @@ body {
 }
 
 .mobile-nav-wrapper {
+  position: fixed;
   display: none;
   background: #262626;
   opacity: .98;
@@ -536,6 +543,11 @@ ul {
     font-size: 70px;
   }
 
+  .feature p {
+    margin-left: 25px;
+    margin-right: 25px;    
+  }
+
   .single-work {
     padding-left: 90px;
     padding-right: 90px;
@@ -576,6 +588,11 @@ ul {
     float: left;
     width: 100%;
     padding: 10px;
+  }
+
+  .feature p {
+    margin-left: 25px;
+    margin-right: 25px;    
   }
 
   .single-work {
